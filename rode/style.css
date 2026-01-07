@@ -1,0 +1,470 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 125px;
+  padding: 0 40px;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+}
+.icon {
+  width: 40px;
+  height: 50px;
+}
+
+.text {
+  width: 50%;
+  height: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.741);
+  /* background-color: black; */
+}
+.img-div img {
+  width: 700px;
+  height: 550px;
+}
+/* .hero-div {
+  display: flex;
+} */
+.hero-div {
+  height: 530px;
+  background-image: url(https://edge.rode.com/images/page/1/modules/10923/rode-wireless-micro-banner-right-10752x3920-rgb-1920x700-546b50c.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text h1 {
+  margin-left: 20%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 40px;
+  color: white;
+}
+.text span {
+  border: 1px solid black;
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 1%;
+}
+.text h2 {
+  color: white;
+  font-size: 25px;
+  margin-left: 30%;
+}
+.text p {
+  color: bisque;
+  font-size: 18px;
+}
+.text p {
+  color: bisque;
+  font-size: 18px;
+}
+.text button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 30px;
+  padding: 20px 30px 20px 30px;
+  margin-left: 25%;
+}
+.img-div-2 img {
+  width: 700px;
+  height: 550px;
+}
+.text-2 h1 {
+  margin-left: 20%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 40px;
+  color: white;
+}
+.text-2 span {
+  font-size: 40px;
+
+  border-radius: 10px;
+  padding: 1%;
+}
+/* DIV 2*/
+.hero-div-2 {
+  height: 530px;
+  background-image: url(https://edge.rode.com/images/page/1/modules/12273/RCV_S_MacroBlue_Hero_8_V17-Extend-1920x700-b7a5ed5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.text-2 {
+  width: 55%;
+  height: 550px;
+  border: 0px solid black;
+}
+.text-2 h2 {
+  color: white;
+  font-size: 25px;
+  margin-left: 30%;
+}
+.text-2 p {
+  color: bisque;
+  font-size: 18px;
+  margin-left: 10%;
+}
+.text-2 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 30px;
+  /* padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px; */
+  padding: 20px 30px 20px 30px;
+  margin-left: 25%;
+}
+/* DIV 3*/
+.hero-div-3 {
+  height: 530px;
+  background-image: url(rode-interview-go-colours-in-the-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-3 {
+  width: 55%;
+  height: 550px;
+}
+.text-3 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 30px;
+  /* padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px; */
+  padding: 20px 30px 20px 30px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.text-3 h1 {
+  font-size: 40px;
+  padding: 40px 250px 40px;
+  padding-top: 150px;
+}
+.text-3 .div {
+  padding-left: 300px;
+  padding-top: 7px;
+  font-size: 30px;
+}
+.text-3 .div-2 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.text-3 span {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 4px;
+}
+/* DIV 4*/
+.hero-div-4 {
+  background-image: url(https://edge.rode.com/images/page/1/modules/17/RODEHUB_WEB_BANNER_V4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.text-4 .div-3 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 30px;
+  color: white;
+}
+.text-4 .div-4 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 23px;
+  color: white;
+  margin-right: 80px;
+}
+.text-4 span {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 4px;
+  color: white;
+}
+.text-4 {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.text-4 h1 {
+  font-size: 40px;
+  padding: 30px 250px 30px;
+  color: white;
+}
+.text-4 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 5%;
+  height: 50px;
+  width: 170px;
+  margin-left: 150px;
+}
+/*DIV-5*/
+.hero-div-5 {
+  background-image: url(https://edge.rode.com/images/page/1/modules/12259/wMCK_WEB_BANNER_V2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+}
+.text-5 {
+  width: 55%;
+  height: 550px;
+}
+.text-5 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 30px;
+  /* padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px; */
+  padding: 20px 30px 20px 30px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.text-5 h1 {
+  font-size: 40px;
+  padding: 70px 70px 40px 70px;
+  color: white;
+}
+.text-5 .div-5 {
+  padding-left: 90px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+.text-5 .div-6 {
+  padding-left: 30px;
+  /* padding-top: 7px; */
+  font-size: 23px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.text-5 span {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 4px;
+}
+/* DIV-6*/
+.hero-div-6 {
+  background-image: url(https://edge.rode.com/images/page/1/modules/11827/WIGO3_Homepage_Desktop_1920x700.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.text-6 .div-6 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 30px;
+  color: white;
+}
+.text-6 .div-7 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 18px;
+  color: gray;
+  margin-right: 80px;
+}
+.text-6 span {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+.text-6 {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.text-6 h1 {
+  font-size: 40px;
+  padding: 70px 70px 40px 70px;
+  color: white;
+}
+.text-6 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 5%;
+  height: 50px;
+  width: 170px;
+  margin-left: 150px;
+}
+/* DIV-7 */
+.hero-div-7 {
+  background-image: url(https://edge.rode.com/images/page/1/modules/11826/rode-nt1-ss-black-banner-7234x2637-rgb-1921x700-546b50c.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+}
+.text-7 {
+  width: 55%;
+  height: 550px;
+}
+.text-7 button {
+  border: 1 px solid black;
+  background-color: aliceblue;
+  border-radius: 30px;
+  /* padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px; */
+  padding: 20px 30px 20px 30px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.text-7 h1 {
+  font-size: 60px;
+  padding: 70px 70px 40px 70px;
+  color: white;
+}
+.text-7 .div-8 {
+  padding-left: 90px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+.text-7 .div-9 {
+  padding-left: 30px;
+  /* padding-top: 7px; */
+  font-size: 18px;
+  color: gray;
+}
+.text-7 span {
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 40px;
+}
+.hero-div-8 {
+  background-image: url(https://edge.rode.com/images/page/1/modules/11828/rode-white-range-family-banner-8-products-14967x5457-rgb-1920x700-546b50c.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.text-8 .div-9 {
+  padding-left: 50px;
+  padding-top: 7px;
+  font-size: 30px;
+  color: black;
+}
+.text-8 .div-10 {
+  padding-left: 22px;
+  padding-top: 7px;
+  font-size: 18px;
+  color: gray;
+  margin-right: 80px;
+}
+.text-8 span {
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+}
+.text-8 {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.text-8 h1 {
+  font-size: 40px;
+  padding: 40px 70px 30px 40px;
+  color: red;
+}
+.text-8 button {
+  border: 1 px solid black;
+  background-color: black;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 5%;
+  height: 50px;
+  width: 170px;
+  margin-left: 150px;
+  color: white;
+}
+
+.parent-2 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.text-parent {
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+  height: 300px;
+  width: 25%;
+  border: 2px solid black;
+  margin-top: 5%;
+}
+.child-1 img,
+.child-2 img,
+.child-3 img,
+.child-4 img {
+  height: 300px;
+  width: 100%;
+}
